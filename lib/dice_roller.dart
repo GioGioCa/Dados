@@ -27,7 +27,7 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/dado_20_$currentDiceRoll.png',
+          'assets/images/dado20_$currentDiceRoll.png',
           width: 200,
         ),
         const SizedBox(height: 20),
