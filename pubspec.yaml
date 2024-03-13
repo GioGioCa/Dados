@@ -82,7 +82,9 @@ flutter:
     - assets/images/dado20_19.png
     - assets/images/dado20_20.png
     - assets/icons/dadosBN.jpeg
+    - assets/icons/dadosBN.ico
     - assets/icons/dadosAstro.jpeg
+    - assets/icons/dadosAstro.ico
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -112,4 +114,4 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icons/dadosBN.jpeg"  # Ruta de tu imagen de icono
+  image_path: "assets/icons/dadosBN.ico"  # Ruta de tu imagen de icono
