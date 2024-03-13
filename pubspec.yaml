@@ -52,6 +52,12 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/dadosAstro.png"  # Ruta de tu imagen de icono
+  adaptive_icon_background: "assets/icons/dadosAstro.png"
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -111,7 +117,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path: "assets/icons/dadosBN.ico"  # Ruta de tu imagen de icono
